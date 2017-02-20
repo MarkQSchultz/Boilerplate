@@ -11,6 +11,7 @@
 		048805231E160D4000B8C2E6 /* BoilerplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048805221E160D4000B8C2E6 /* BoilerplateTests.swift */; };
 		048805251E160D4000B8C2E6 /* Boilerplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 048805171E160D4000B8C2E6 /* Boilerplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		048805311E160D9200B8C2E6 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048805301E160D9200B8C2E6 /* Storyboardable.swift */; };
+		048805481E16129E00B8C2E6 /* NavigationControllerStoryboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048805471E16129E00B8C2E6 /* NavigationControllerStoryboardable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		048805221E160D4000B8C2E6 /* BoilerplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilerplateTests.swift; sourceTree = "<group>"; };
 		048805241E160D4000B8C2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048805301E160D9200B8C2E6 /* Storyboardable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		048805471E16129E00B8C2E6 /* NavigationControllerStoryboardable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerStoryboardable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +75,8 @@
 		048805161E160D4000B8C2E6 /* Boilerplate */ = {
 			isa = PBXGroup;
 			children = (
-				048805171E160D4000B8C2E6 /* Boilerplate.h */,
-				048805181E160D4000B8C2E6 /* Info.plist */,
-				048805301E160D9200B8C2E6 /* Storyboardable.swift */,
+				048805551E1701FF00B8C2E6 /* Storyboarding */,
+				048805561E17021100B8C2E6 /* Supporting Files */,
 			);
 			path = Boilerplate;
 			sourceTree = "<group>";
@@ -87,6 +88,24 @@
 				048805241E160D4000B8C2E6 /* Info.plist */,
 			);
 			path = BoilerplateTests;
+			sourceTree = "<group>";
+		};
+		048805551E1701FF00B8C2E6 /* Storyboarding */ = {
+			isa = PBXGroup;
+			children = (
+				048805301E160D9200B8C2E6 /* Storyboardable.swift */,
+				048805471E16129E00B8C2E6 /* NavigationControllerStoryboardable.swift */,
+			);
+			name = Storyboarding;
+			sourceTree = "<group>";
+		};
+		048805561E17021100B8C2E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048805171E160D4000B8C2E6 /* Boilerplate.h */,
+				048805181E160D4000B8C2E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048805481E16129E00B8C2E6 /* NavigationControllerStoryboardable.swift in Sources */,
 				048805311E160D9200B8C2E6 /* Storyboardable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +432,7 @@
 				0488052A1E160D4000B8C2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0488052B1E160D4000B8C2E6 /* Build configuration list for PBXNativeTarget "BoilerplateTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +441,7 @@
 				0488052D1E160D4000B8C2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
